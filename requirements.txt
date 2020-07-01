@@ -19,3 +19,11 @@ pid==2.2.5
 azure==4.0.0
 pygments==2.6.1
 sockjs==0.10.0
+beautifulsoup4
+hass-apps
+pymodbus
+pyserial
+imageio==2.5.0
+telepot==12.7
+matplotlib==3.1.1
+gmusicapi==12.1.1
