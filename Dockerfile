@@ -22,7 +22,7 @@ COPY . .
 RUN apk add tzdata
 
 # Install dependencies
-RUN apk add --no-cache gcc libffi-dev openssl-dev musl-dev \
+RUN apk add --no-cache gcc build-base jpeg-dev zlib-dev libffi-dev musl-dev openssl-dev libxml2-dev libxslt-dev freetype-dev \
     && pip install --no-cache-dir .
 # Install additional packages
 RUN apk add --no-cache curl
